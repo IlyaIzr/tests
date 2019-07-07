@@ -1,0 +1,12 @@
+/* Дизайнер разработал логотип. Его потребуется использовать в самых разных условиях. 
+Чтобы это было максимально удобно, сверстайте его с помощью одного HTML-элемента на чистом CSS.
+*/
+
+.logo {background:
+  linear-gradient(#f8e34b, #f8e34b) 0% 0% / 180px 90px,
+  linear-gradient(178deg, #C8C8C8 , transparent 7px) 0px 90px / 90px 90px,
+  linear-gradient(#EEEDEF, #EEEDEF) 0% 90px / 90px 90px,
+  linear-gradient(#0c0c0c, #0c0c0c) 90px 90px / 90px 90px;    
+  background-repeat: no-repeat;
+  border-radius: 9px;
+}
