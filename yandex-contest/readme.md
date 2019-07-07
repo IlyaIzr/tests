@@ -1,2 +1,2 @@
 Logo - https://codepen.io/ilyaizr/pen/gNBrqj
-Pairs - standart plus alternative decision
+#Pairs - standart plus alternative decision
