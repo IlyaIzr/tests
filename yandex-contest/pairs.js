@@ -19,3 +19,25 @@ function pairs (nums, k){
         return false;
 }
 pairs([1, 3, 5, 7, 15, 215125, 7, 0, 0], 0) //true
+
+//       A L T E R N A T I V E
+
+ function testo2(nums, k){
+  let isTrue = false;
+ for (let i=0; i<nums.length; i++){
+   //console.log(nums[i]);
+   if (!isTrue){
+   nums.forEach((value, index) =>{
+     if ((i !== index) && (nums[i]+value==k)){
+       console.log(`DONE with nums[${nums[i]}] value ${value}`);
+       isTrue = true;
+       console.log("DONE");       
+       return true
+     }
+   })}
+   else break
+ }
+}
+//testo2([1, 3, 5, 7, 215125, 7, 0, 0], 15) //false
+testo2([1, 3, 5, 7, 215125, 7, 0, 0], 12) //true
+//testo2([1, 3, 5, 7, 215125, 7, 0, 0], 0) //true
