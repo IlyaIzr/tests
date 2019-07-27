@@ -24,7 +24,7 @@ const AddList = () =>{
                 return([...newState])
               })
             } }
-             value={ listItem[0] }></input>
+             value={ listItem[0] || '' }></input>
         </div>
         <div className="form-group">
           <label htmlFor="1">list Item 2</label>
@@ -37,7 +37,7 @@ const AddList = () =>{
                 return([...newState])
               })
             } }
-            value={ listItem[1] }></input>
+            value={ listItem[1] || '' }></input>
         </div>
       </form>
     </div>
